@@ -199,6 +199,7 @@ section.project {
 @media print {
     div.container {
         max-width: 100%;
+        padding-left: 1rem;
     }
     nav {
         display: block;
@@ -208,7 +209,7 @@ section.project {
         display: none;
     }
     header {
-        padding: 1rem;
+        padding: 0.5rem;
     }
     header h1 {
         font-size: 1.5rem;
@@ -217,7 +218,7 @@ section.project {
         font-size: 1rem;
     }
     article {
-        padding: 1rem;
+        padding: 0.5rem;
     }
     .article-container {
         display: block;
@@ -229,6 +230,9 @@ section.project {
         width: 100%;
         background-color: none;
         border: 0px;
+        padding: 0rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
     }
     article h1 {
         font-size: 1.5rem;
@@ -246,7 +250,7 @@ section.project {
         max-width: 100%;
         background-color: none;
         border: 0px;
-        margin: 2rem 0rem;
+        margin: 1rem 0rem;
     }
     .projects {
         display: block;
