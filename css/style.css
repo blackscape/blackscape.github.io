@@ -146,7 +146,7 @@ section.project {
 .project-button:hover {
     background-color: var(--color-dark-blue);
 }
-@media(max-width: 796px) {
+@media(max-width: 819px) {
     header {
         padding: 4rem 3rem;
     }
@@ -163,7 +163,7 @@ section.project {
         font-size: 2rem;
     }
 }
-@media(max-width: 576px) {
+@media(max-width: 599px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
